@@ -37,7 +37,7 @@ class ListProviderAppointmentsService {
       },
     );
 
-    await this.cacheProvider.save('aksd', 'skjd');
+    // await this.cacheProvider.save('aksd', 'skjd');
     return appointments;
   }
 }
